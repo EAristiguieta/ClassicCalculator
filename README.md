@@ -5,7 +5,7 @@
 <p>Herramientas: </p>
 
 - Html
-- Css
+- Sass
 - Javascript
 
 <p>Captura: </p>
