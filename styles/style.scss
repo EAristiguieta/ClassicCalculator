@@ -37,13 +37,12 @@ h2:hover span:nth-child(1):before {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 80vh; */
-  margin-top: 0;
 }
 .calculadora {
   padding: 15px;
   border-radius: 1rem;
   box-shadow: 5px 5px 10px -3px #000000;
+
   transition: 0.5s;
 }
 .calculadora:hover {
@@ -65,7 +64,6 @@ h2:hover span:nth-child(1):before {
   cursor: pointer;
   display: flex;
   display: inline;
-  /*   border: solid 0.5px #FF96D5;  */
   padding: 15px;
   border-radius: 2rem;
   margin: 10px;
@@ -82,15 +80,7 @@ h2:hover span:nth-child(1):before {
   body {
     width: 100%;
   }
-}
-/* Móvil */
-/* @media (width <= 600px) {
-  .container {
-    width: 100%;
-  }
-  .brand {
+  h2 {
     font-size: 2rem;
-    padding: 10px;
   }
 }
- */
