@@ -1,10 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
 * {
   font-family: "Roboto", sans-serif;
 }
-
 body {
   margin: 0;
   background-color: #1b1b1b;
@@ -12,7 +10,6 @@ body {
   background-size: cover;
   background-position: center;
 }
-
 h2 {
   font-family: "Roboto", sans-serif;
   font-size: 4rem;
@@ -21,44 +18,37 @@ h2 {
   letter-spacing: 5px;
   cursor: pointer;
   text-align: center;
-  margin-top: 50px;
+  padding: 20px;
   margin-bottom: 0;
 }
-
 h2 span {
   transition: 0.5s;
 }
-
 h2:hover span {
   color: #fff;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff,
     0 0 80px #fff, 0 0 120px #fff;
 }
-
 h2:hover span:nth-child(1):before {
   margin-right: 10px;
   content: "</>";
 }
-
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  /* height: 80vh; */
   margin-top: 0;
 }
-
 .calculadora {
   padding: 15px;
   border-radius: 1rem;
   box-shadow: 5px 5px 10px -3px #000000;
   transition: 0.5s;
 }
-
 .calculadora:hover {
   border: solid 5px #fff;
 }
-
 .screen {
   padding: 70px;
   border-radius: 0.5rem;
@@ -68,11 +58,9 @@ h2:hover span:nth-child(1):before {
   font-weight: bolder;
   text-align: center;
 }
-
 .botones {
   text-align: center;
 }
-
 .botones input {
   cursor: pointer;
   display: flex;
@@ -87,19 +75,16 @@ h2:hover span:nth-child(1):before {
   background-color: transparent;
   color: #ff96d5;
 }
-
 .botones input:hover {
   outline: solid 5px #ebecf0;
 }
-
-@media (width <= 992px) {
-  .container {
+@media (max-width: 992px) {
+  body {
     width: 100%;
   }
 }
-
 /* Móvil */
-@media (width <= 600px) {
+/* @media (width <= 600px) {
   .container {
     width: 100%;
   }
@@ -108,3 +93,4 @@ h2:hover span:nth-child(1):before {
     padding: 10px;
   }
 }
+ */

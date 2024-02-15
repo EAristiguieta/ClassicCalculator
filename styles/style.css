@@ -21,7 +21,7 @@ h2 {
   letter-spacing: 5px;
   cursor: pointer;
   text-align: center;
-  margin-top: 50px;
+  padding: 20px;
   margin-bottom: 0;
 }
 
@@ -43,7 +43,7 @@ h2:hover span:nth-child(1):before {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  /* height: 80vh; */
   margin-top: 0;
 }
 
@@ -91,13 +91,13 @@ h2:hover span:nth-child(1):before {
   outline: solid 5px #ebecf0;
 }
 
-@media (width <= 992px) {
-  .container {
+@media (max-width: 992px) {
+  body {
     width: 100%;
   }
 }
 /* Móvil */
-@media (width <= 600px) {
+/* @media (width <= 600px) {
   .container {
     width: 100%;
   }
@@ -105,4 +105,5 @@ h2:hover span:nth-child(1):before {
     font-size: 2rem;
     padding: 10px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+ *//*# sourceMappingURL=style.css.map */
